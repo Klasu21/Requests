@@ -1,0 +1,10 @@
+cat > requirements.txt << EOF
+streamlit>=1.20.0
+streamlit-searchbox
+requests
+pandas
+EOF
+
+git add requirements.txt
+git commit -m "Add requirements.txt with Streamlit dependencies"
+git push origin main
